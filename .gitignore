@@ -18,3 +18,4 @@ weights/9/*.onnx
 lfw/*.*
 lfw/*
 .vscode
+weights
