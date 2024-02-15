@@ -18,11 +18,15 @@ The OpenCV Model Zoo is a valuable resource for computer vision practitioners an
 
 Using pre-trained models from the Model Zoo is straightforward. OpenCV provides convenient APIs for loading these models and applying them to images or videos. Model Zoo is a collaborative effort, and contributions from the computer vision community are welcome. Developers can find models trained on various datasets and for specific use cases, which can be incredibly valuable for their projects. By leveraging pre-trained models from the Model Zoo, developers can significantly reduce the time and computational resources required for training deep learning models from scratch. Researchers and developers often use these pre-trained models as a starting point for their own experiments or projects. It allows for rapid prototyping and experimentation before committing to training custom models. Whether object recognition, image segmentation, or any other vision-related task, the Model Zoo likely has a pre-trained model that can jumpstart the work.
 
+### Haar cascades algorithm
+   haarcascade_frontalface_default.xml
+* **face_detection.py**: opencv 
+
 ### YuNet
 * github: https://github.com/opencv/opencv_zoo/tree/main/models/face_detection_yunet
 * **face_detection_dnn.py**: face_detection_yunet_2023mar.onnx
 
-## SFace: Sigmoid-Constrained Hypersphere Loss for Robust Face Recognition
+### SFace: Sigmoid-Constrained Hypersphere Loss for Robust Face Recognition
 * github: https://github.com/opencv/opencv_zoo/tree/main/models/face_recognition_sface
 * **face_recognition.py**: face_detection_yunet_2023mar.onnx
 
